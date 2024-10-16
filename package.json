@@ -1,0 +1,18 @@
+{
+  "name": "mentoria-practicando",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "compilar-sass": "sass --watch style.scss style-sass.css",
+    "compilar-tailwind": "npx tailwindcss -i ./styles.css -o ./output.css --watch"
+  },
+  "author": "gabuleta",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  }
+}
